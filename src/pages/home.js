@@ -59,6 +59,14 @@ function Body() {
             </div>
           </div>
         </div>
+        <div className=' bg-black'>
+         <h7 className=" text-white font-bold"> Previous Projects</h7> 
+         <ul className="list-disc list-inside text-white">
+                <li>Know what your target market wants and needs</li>
+                <li>A whole lot of digital love for less</li>
+                <li>Problem solving</li>
+              </ul>
+        </div>
       </section>
       <section className="color1 text-white py-20">
         <div className="container mx-auto">
