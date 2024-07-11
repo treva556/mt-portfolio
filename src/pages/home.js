@@ -4,6 +4,12 @@ import React from 'react';
 import '../App.css';
 import image11 from '../assets/image11.jpeg';
 // import Nav from '../components/navbar';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
+AOS.init();
+
+
 
 function Body() {
   return (
@@ -60,14 +66,20 @@ function Body() {
           </div>
         </div>
         <div className=' bg-black'>
+        <div data-aos="fade-up">
+
          <h7 className=" text-white font-bold"> Previous Projects</h7> 
          <ul className="list-disc list-inside text-white">
                 <li>Know what your target market wants and needs</li>
                 <li>A whole lot of digital love for less</li>
                 <li>Problem solving</li>
               </ul>
+              </div>
         </div>
       </section>
+      <div data-aos="fade-up">
+  Your content here
+</div>
       <section className="color1 text-white py-20">
         <div className="container mx-auto">
           <h3 className="text-3xl font-bold mb-8 text-center">Other Services</h3>
