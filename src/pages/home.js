@@ -77,7 +77,7 @@ function Body() {
               </div>
         </div>
       </section>
-      <div data-aos="fade-up">
+      <div data-aos=" fade-right">
   Your content here
 </div>
       <section className="color1 text-white py-20">
