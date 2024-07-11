@@ -6,9 +6,9 @@ import React from 'react';
 
 function Footer () {
   return (
-    <div className=" bg-black">
+    <div className=" p-10 bg-black">
 
-        <p className=' text-white'> ggggg</p>
+        <p className=' font-bold text-2xl text-white'> ggggg</p>
     
     </div>
   );
