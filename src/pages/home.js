@@ -48,7 +48,7 @@ function Body() {
           <h3 className="text-3xl font-bold mb-8 text-center">Other Services</h3>
           <div className="flex flex-wrap justify-center space-x-4">
             <div className="border border-white p-4 m-4 w-1/3">
-              <h4 className="text-2xl font-bold mb-4">Web Development</h4>
+              <h4 className="text-2xl font-bold mb-4"> Multi-Media</h4>
               <p>This allows individuals and organizations to support their efforts to combat carbon climate change.</p>
             </div>
             <div className="border border-white p-4 m-4 w-1/3">
