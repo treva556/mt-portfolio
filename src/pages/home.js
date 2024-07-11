@@ -85,6 +85,14 @@ hh
           </div>
         </div>
       </section>
+      <div>
+        <h6 className=' text-2xl font-bold'> Hobbies</h6>
+        <ul className="list-disc list-inside">
+                <li>Know what your target market wants and needs</li>
+                <li>A whole lot of digital love for less</li>
+                <li>Problem solving</li>
+              </ul>
+      </div>
     </div>
   );
 }
