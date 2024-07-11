@@ -52,10 +52,14 @@ function Body() {
             <div className=" w-screen bg11 mb-8">
               <h4 className="mt-5 text-2xl font-bold mb-4">Process</h4>
               <div className="columns-2">
-                <div>1. Design</div>
-                <div>2. coding</div>
-                <div>3. Testing</div>
-                <div>4. Launch</div>
+              <div data-aos="fade-up">
+              1. Design</div>
+              <div data-aos="fade-down">
+              2. coding</div>
+              <div data-aos="fade-up">
+              3. Testing</div>
+              <div data-aos="fade-down">
+              4. Launch</div>
               </div>
             </div>
 
@@ -70,14 +74,26 @@ function Body() {
 
          <h7 className=" text-white font-bold"> Previous Projects</h7> 
          <ul className="list-disc list-inside text-white">
-                <li>Know what your target market wants and needs</li>
-                <li>A whole lot of digital love for less</li>
-                <li>Problem solving</li>
-              </ul>
+            <li>
+              <a href="https://wise-properties.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+                Wise Properties
+              </a>
+            </li>
+            <li>
+              <a href="https://wise-security.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+                Wise Security
+              </a>
+            </li>
+            <li>
+              <a href="https://farmwise.co.ke/" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+                Farwise
+              </a>
+            </li>
+          </ul>
               </div>
         </div>
       </section>
-      <div data-aos=" fade-right">
+      <div data-aos="fade-down">
   Your content here
 </div>
       <section className="color1 text-white py-20">
@@ -114,3 +130,4 @@ function Body() {
 export default Body;
 
 ////
+
