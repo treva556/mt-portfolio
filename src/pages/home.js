@@ -108,16 +108,18 @@ function Body() {
         <div className="container mx-auto">
           <h3 className="text-3xl font-bold mb-8 text-center">Other Services</h3>
           <div className="flex flex-wrap justify-center space-x-4">
-            <div className="border border-white p-4 m-4 w-1/3">
+            <div className="border border-white p-2 m-4 w-1/3">
               <h4 className="text-2xl font-bold mb-4">Multi-Media</h4>
               <p className=' text-xs'>This allows individuals and organizations to support their efforts to combat carbon climate change.</p>
             </div>
             <div className="border border-white p-4 m-4 w-1/3">
-              <h4 className="text-2xl font-bold mb-4">Penetration Tester</h4>
+              <h4 className="text-xl font-bold mb-2">Penet-
+                ration Tester</h4>
               <p>Energy consulting involves providing expert advice and guidance on energy-related matters.</p>
             </div>
             <div className="border border-white p-4 m-4 w-1/3">
-              <h4 className="text-2xl font-bold mb-4">Public Relations Consultation</h4>
+              <h4 className="text-2xl font-bold">Public Relations </h4>
+               <h4 className=' text-2xl font-bold mb-2'> Consultation</h4>
               <p>Refers to the adaptation processes of human and natural systems in response to the impacts.</p>
             </div>
           </div>
@@ -128,9 +130,9 @@ function Body() {
       <div className="py-20">
         <h6 className="text-2xl font-bold">Hobbies</h6>
         <ul className="list-disc list-inside">
-          <li>Know what your target market wants and needs</li>
-          <li>A whole lot of digital love for less</li>
-          <li>Problem solving</li>
+          <li> Tennis  </li>
+          <li> Football </li>
+          <li> Swimming & Painting</li>
         </ul>
       </div>
       </div>
