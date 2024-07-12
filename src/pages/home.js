@@ -52,13 +52,21 @@ function Body() {
             <div className=" w-screen bg11 mb-8">
               <h4 className="mt-5 text-2xl font-bold mb-4">Process</h4>
               <div className="columns-2 text-2xl">
-              <div data-aos="fade-up">
+              <div data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+
               1. Design</div>
-              <div data-aos="fade-down">
+              <div data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+
               2. coding</div>
-              <div data-aos="fade-up">
+              <div data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+
               3. Testing</div>
-              <div className=' mb-9' data-aos="fade-down">
+              <div data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+
               4. Launch</div>
               </div>
             </div>
@@ -70,7 +78,9 @@ function Body() {
           </div>
         </div>
         <div className=' bg-black'>
-        <div data-aos="fade-up">
+        <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
 
          <h7 className=" text-white font-bold"> Previous Projects</h7> 
          <ul className="list-disc list-inside text-white">
