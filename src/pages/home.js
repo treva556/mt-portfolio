@@ -71,13 +71,13 @@ function Body() {
               </div>
             </div>
 
-            <div className="w-full">
-              <h4 className="ml-4 mt-5 text-2xl font-bold mb-4">Pricing</h4>
-              {/* Pricing content goes here */}
-            </div>
+          
           </div>
         </div>
-        <div className=' bg-black'>
+       
+      </section>
+
+      <div className=' bg-black p-6'>
         <div data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
@@ -85,26 +85,30 @@ function Body() {
          <h7 className=" text-white font-bold"> Previous Projects</h7> 
          <ul className="list-disc list-inside text-white">
             <li>
-              <a href="https://wise-properties.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+              <a href="https://wise-properties.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-200 underline">
                 Wise Properties
               </a>
             </li>
             <li>
-              <a href="https://wise-security.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+              <a href="https://wise-security.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-300 underline">
                 Wise Security
               </a>
             </li>
             <li>
-              <a href="https://farmwise.co.ke/" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+              <a href="https://farmwise.co.ke/" target="_blank" rel="noopener noreferrer" className="text-blue-300 underline">
                 Farmwise
               </a>
             </li>
           </ul>
               </div>
+            
         </div>
-      </section>
+        <div className="w-full">
+              <h4 className="ml-4 mt-5 text-2xl font-bold mb-4 p-9">Pricing</h4>
+              {/* Pricing content goes here */}
+            </div>
    
-      <section className="color1 text-white py-20">
+      <section className=" ml-4 mr-4 rounded-2xl color1 text-white py-20">
         <div className="container mx-auto">
           <h3 className="text-3xl font-bold mb-8 text-center">Other Services</h3>
           <div className="flex flex-wrap justify-center space-x-4">
@@ -128,7 +132,7 @@ function Body() {
       <div data-aos="fade-down">
 
       <div className="py-20">
-        <h6 className="text-2xl font-bold">Hobbies</h6>
+        <h6 className="text-2xl font-bold mb-2">Hobbies</h6>
         <ul className="list-disc list-inside">
           <li> Tennis  </li>
           <li> Football </li>
