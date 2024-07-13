@@ -61,14 +61,15 @@ function Body() {
      data-aos-anchor-placement="center-center">
 
               1. Design</div>
-              <div data-aos="fade-up"
-     data-aos-anchor-placement="center-center">
-
-              2. coding</div>
+             
               <div data-aos="fade-up"
      data-aos-anchor-placement="center-center">
 
               3. Testing</div>
+              <div data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+
+              2. coding</div>
               <div data-aos="fade-up"
      data-aos-anchor-placement="center-center">
 
@@ -119,12 +120,12 @@ function Body() {
       </li>
       <li className=''>
         <a 
-          href="https://farmwise.co.ke/" 
+          href="https://paradise-club.vercel.app/" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="bg-white p-4 text-black underline rounded-2xl block"
         >
-          Farmwise
+          Paradise Bar Lounge
         </a>
       </li>
     </ul>
