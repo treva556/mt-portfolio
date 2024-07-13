@@ -48,6 +48,11 @@ function Body() {
                 <span className="block font-bold">Agronomist: Leslie Alexander</span>
               </div>
             </div>
+
+            </div>
+        </div>
+       
+      </section>
             
             <div className=" w-screen bg11 mb-8">
               <h4 className="mt-5 text-2xl font-bold mb-4">Process</h4>
@@ -72,10 +77,7 @@ function Body() {
             </div>
 
           
-          </div>
-        </div>
-       
-      </section>
+      
 
       <div className='bg-black p-6'>
   <div 
