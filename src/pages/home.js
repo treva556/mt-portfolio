@@ -77,32 +77,58 @@ function Body() {
        
       </section>
 
-      <div className=' bg-black p-6'>
-        <div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500">
-
-         <h7 className=" text-white font-bold"> Previous Projects</h7> 
-         <ul className="list-disc list-inside text-white">
-            <li>
-              <a href="https://wise-properties.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-200 underline">
-                Wise Properties
-              </a>
-            </li>
-            <li>
-              <a href="https://wise-security.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-300 underline">
-                Wise Security
-              </a>
-            </li>
-            <li>
-              <a href="https://farmwise.co.ke/" target="_blank" rel="noopener noreferrer" className="text-blue-300 underline">
-                Farmwise
-              </a>
-            </li>
-          </ul>
-              </div>
-            
-        </div>
+      <div className='bg-black p-6'>
+  <div 
+    data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500"
+  >
+    <h7 className="text-white font-bold mb-8">Previous Projects</h7>
+    <ul className="list-disc list-inside text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+      <li className=''>
+        <a 
+          href="https://wise-properties.vercel.app/" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="bg-red-800 rounded-2xl p-4 text-black underline block"
+        >
+          Wise Properties
+        </a>
+      </li>
+      <li className=''>
+        <a 
+          href="https://wise-security.vercel.app/" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="bg-white p-4 text-black underline rounded-2xl block"
+        >
+          Wise Security
+        </a>
+      </li>
+      <li className=''>
+        <a 
+          href="https://farmwise.co.ke/" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="bg-white p-4 text-black underline rounded-2xl block"
+        >
+          Farmwise
+        </a>
+      </li>
+      <li className=''>
+        <a 
+          href="https://farmwise.co.ke/" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="bg-white p-4 text-black underline rounded-2xl block"
+        >
+          Farmwise
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+      
         <div className="w-full">
               <h4 className="ml-4 mt-5 text-2xl font-bold mb-4 p-9">Pricing</h4>
               {/* Pricing content goes here */}
