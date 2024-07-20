@@ -13,7 +13,7 @@ AOS.init();
 
 function Body() {
   return (
-    <div className="bg11">
+    <div className=" bg-yellow-400">
       {/* <Nav /> */}
       <header className="text-white py-20">
         <div className="container mx-auto text-center">

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Nav() {
   return (
-    <div className="App">
+    <div className=" bg-yellow-400">
      <nav class=" border-gray-200 ">
   <div class=" relative max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
     {/* <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
