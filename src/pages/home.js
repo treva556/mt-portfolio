@@ -6,6 +6,8 @@ import image11 from '../assets/image11.jpeg';
 // import Nav from '../components/navbar';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import ProgressBar from '../components/progress';
+import Roadmap from '../components/roadmap';
 
 AOS.init();
 
@@ -40,6 +42,8 @@ function Body() {
     <p class="mb-4">In my free time, I enjoy Tennis, hiking, and experimenting with new web technologies.</p>
 </div>
       </section>
+      <ProgressBar progress={40} />
+      <Roadmap />
 
       <div data-aos="fade-down">
       <div class="process-section  p-8">
