@@ -17,7 +17,13 @@
   background-color: #000;
 }
 
+.custom-bullets li::marker {
+  color: yellow; /* Change bullet color to yellow */
+}
 
+.typing-effect-container {
+  min-height: 3rem; /* Adjust this value based on your text size */
+}
 
 
 .bg11 {

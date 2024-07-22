@@ -19,7 +19,7 @@ const Roadmap = () => {
         <div className="flex items-center justify-between">
           {milestones.map(milestone => (
             <div key={milestone.id} className="relative text-center">
-              <div className="w-8 h-8 bg-blue-500 text-white rounded-full mx-auto flex items-center justify-center">
+              <div className="w-8 h-8 bg-yellow-500 text-white rounded-full mx-auto flex items-center justify-center border-zinc-950">
                 {milestone.id}
               </div>
               <div className="mt-2 text-lg font-semibold">{milestone.title}</div>
