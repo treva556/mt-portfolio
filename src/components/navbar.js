@@ -20,9 +20,7 @@ function Nav() {
     <li>
           <a href="/" class="block py-2 px-3 text-yellow-400 bg-yellow-400 rounded md:bg-transparent md:p-0 dark:text-yellow " aria-current="page">Home</a>
         </li>
-        <li>
-          <a href="#" class="absolute right-60 block py-2 px-3 text-yellow-400 rounded hover:bg-gray-100 md:hov700er:bg-transparent md:border-0 md:p-0 dark:text-yellow-400  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
-        </li>
+       
         <li>
           <a href="/services" class="absolute right-40 block py-2 px-3 text-yellow-400 roundedrounded hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0 dark:text-yellow-300 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
         </li>
@@ -30,10 +28,7 @@ function Nav() {
         <a href="#" class="absolute right-20 block py-2 px-3 text-yellow-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0 dark:text-yellow-300 dark:hover:bg-gray-700 dark:hover:text-yellow-400 md:dark:hover:bg-transparent">Pricing</a>
 
         </li>
-        <li>
-        <a href="#" class="absolute right-0 block py-2 px-3 text-yellow-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0 dark:text-yellow-300 dark:hover:bg-gray-700 dark:hover:text-yellow-300 md:dark:hover:bg-transparent">About</a>
-
-        </li>
+       
       </ul>
     </div>
   </div>
