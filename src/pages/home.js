@@ -5,6 +5,7 @@ import '../App.css';
 // import Nav from '../components/navbar';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import ReactTypingEffect from 'react-typing-effect';
 import ProgressBar from '../components/progress';
 import Roadmap from '../components/roadmap';
 import image1 from '../assets/html.png';
@@ -22,13 +23,21 @@ function Body() {
   };
 
   return (
-    <div className="bg-yellow-400 font-mono">
+    <div className="bg-yellow-400">
       {/* <Nav /> */}
       <header className="text-white py-20">
         <div className="container mx-auto text-center">
           <h1 className="text-5xl text-black font-bold">Designing Digital Experiences</h1>
           <p className="mt-4 text-black text-lg font-mono">
-            Creating visually appealing, intuitive, and interactive websites that provide exceptional user experiences.
+            <ReactTypingEffect
+              text={[
+                'Creating visually appealing, intuitive, and interactive websites that provide exceptional user experiences.'
+              ]}
+              speed={20}
+              eraseSpeed={50}
+              eraseDelay={2000}
+              typingDelay={500}
+            />
           </p>
         </div>
       </header>
