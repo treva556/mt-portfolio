@@ -3,9 +3,9 @@
 import React from 'react';
 
 const milestones = [
-  { id: 1, title: 'Step 1', description: ' Discussing your project requirements and goals' },
-  { id: 2, title: 'Step 2', description: ' Creating a detailed plan and design mockups for your project. ' },
-  { id: 3, title: 'Step 3', description: ' Developing your project and launch it successfully. ' },
+  { id: 1, title: ' Initial Consultation ', description: ' Discussing your project requirements and goals' },
+  { id: 2, title: ' Planning and Design', description: ' Creating a detailed plan and design mockups for your project. ' },
+  { id: 3, title: ' Development and Launch ', description: ' Developing your project and launch it successfully. ' },
 ];
 
 const Roadmap = () => {

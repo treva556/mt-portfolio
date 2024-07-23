@@ -149,7 +149,7 @@ function Body() {
   <h4 className="ml-4 mt-5 text-2xl font-bold "></h4>
   <div className="bg- p-8 rounded-xl shadow-lg mx-4">
     <h2 className="text-center text-3xl font-bold mb-6">Web Development Pricing</h2>
-    <p className="text-lg text-center">My web development services range from <strong>$750 to $2000</strong>, depending on the complexity of the project.</p>
+    {/* <p className="text-lg text-center">My web development services range from <strong>$750 to $2000</strong>, depending on the complexity of the project.</p> */}
   </div>
 </div>
 
@@ -194,9 +194,9 @@ function Body() {
   </div>
 </section>
 
-
-<p> The best way to predict the future is to create it.</p>
-
+<div className=' border border-black p-6 mr-5 ml-5'>
+<p className=' font-bold text-xl'> " The best way to predict the future is to create it. "</p>
+</div>
 
        <div className="back-to-top-button-container text-center py-4 mt-4">
         <button 
