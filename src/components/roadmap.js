@@ -3,23 +3,25 @@
 import React from 'react';
 
 const milestones = [
-  { id: 1, title: 'Step 1', description: 'Description of step 1' },
-  { id: 2, title: 'Step 2', description: 'Description of step 2' },
-  { id: 3, title: 'Step 3', description: 'Description of step 3' },
+  { id: 1, title: 'Step 1', description: ' Discussing your project requirements and goals' },
+  { id: 2, title: 'Step 2', description: ' Creating a detailed plan and design mockups for your project. ' },
+  { id: 3, title: 'Step 3', description: ' Developing your project and launch it successfully. ' },
 ];
 
 const Roadmap = () => {
   return (
     <div className="container mx-auto p-8">
+            <h3 className="text-2xl font-semibold mb-2 mt-6" >Process</h3>
+
       <div className="relative">
         {/* Roadmap Timeline */}
-        <div className="absolute h-full border-l-2 border-gray-300 left-1/2 transform -translate-x-1/2"></div>
+        {/* <div className="absolute h-full border-l-2  left-1/2 transform -translate-x-1/2"></div> */}
 
         {/* Milestones */}
         <div className="flex items-center justify-between">
           {milestones.map(milestone => (
             <div key={milestone.id} className="relative text-center">
-              <div className="w-8 h-8 bg-yellow-500 text-white rounded-full mx-auto flex items-center justify-center border-zinc-950">
+              <div className="w-8 h-8 bg-black text-white rounded-full mx-auto flex items-center justify-center border-zinc-950">
                 {milestone.id}
               </div>
               <div className="mt-2 text-lg font-semibold">{milestone.title}</div>
@@ -33,3 +35,9 @@ const Roadmap = () => {
 };
 
 export default Roadmap;
+
+
+
+
+
+///

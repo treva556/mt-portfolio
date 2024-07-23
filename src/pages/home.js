@@ -1,8 +1,7 @@
 
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import '../App.css';
-// import Nav from '../components/navbar';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import ReactTypingEffect from 'react-typing-effect';
@@ -12,6 +11,9 @@ import image1 from '../assets/html.png';
 import image2 from '../assets/js.png';
 import image3 from '../assets/rails.png';
 import image4 from '../assets/react.png';
+import image85 from '../assets/Group 85.png';
+import image55 from '../assets/yj.jpeg';
+import image56 from '../assets/yy.jpeg';
 
 AOS.init();
 
@@ -22,77 +24,71 @@ function Body() {
     setIsMultimediaOpen(!isMultimediaOpen);
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <div className="bg-yellow-400">
-      {/* <Nav /> */}
-      <header className="text-white py-20">
+      <div className=' text-yellow-400 p-6'>
+        jj
+      </div>
+      <header className="text-white py-3">
         <div className="container mx-auto text-center">
-          <h1 className="text-5xl text-black font-bold mt-5">Designing Digital Experiences</h1>
-          <div className="mt-4 text-black text-lg font-mono typing-effect-container" style={{ display: 'inline-block', width: '100%' }}>
-            <ReactTypingEffect
+          <div className=' text-black text-lg font-mono typing-effect-container flex justify-start ml-5'>
+        <ReactTypingEffect
               text={[
-                'Creating visually appealing, intuitive, and interactive websites that provide exceptional user experiences.'
+                'Hi, im Mark Trevor. '
               ]}
               speed={20}
               eraseSpeed={50}
               eraseDelay={2000}
               typingDelay={500}
             />
+            </div>
+          <h1 className="text-5xl text-black font-bold mt-5">Designing Digital Experiences</h1>
+          <div className="mt-10 text-black text-lg font-mono typing-effect-container" style={{ display: 'inline-block', width: '100%' }}>
+                
+                <p> Creating visually appealing, intuitive, and interactive websites that provide exceptional user experiences. </p>
+           
           </div>
         </div>
       </header>
-      <section className="mb-1 ml-4 mr-4 rounded-3xl py-20">
-        <div className="about-me-section p-8">
-          <h2 className="text-center text-3xl font-bold mb-6">About Me</h2>
-          <p className="text-lg mb-4">Hello, I'm a Web Developer with a passion for creating interactive and dynamic web applications. 
-            With over 3 years of experience in the industry, 
-            I have developed a deep understanding of modern web technologies and design principles.</p>
+      <section className="mb-1 ml-4 mr-4 rounded-3xl py-10">
+        <div className="about-me-section p-8 flex flex-col lg:flex-row items-center lg:items-start lg:space-x-8">
+        <img src={image85} alt="Technology 4" className=" w-5/6 lg:w-3/4 mb-4 lg:mb-0 p-10" />
 
           <div>
-            <h3 className="text-2xl font-semibold mb-2 mt-5">Technologies</h3>
-            <ul className="list-disc pl-5 mb-4">
-              <li>HTML, CSS, JavaScript, React, Ruby on Rails</li>
-              <li>UI/UX Design, Responsive Web Design</li>
-            </ul>
-            <div className="flex justify-center flex-wrap space-x-4">
-              <img src={image1} alt="Technology 1" className="w-1/8 mb-4" style={{ maxWidth: '50px' }} />
-              <img src={image2} alt="Technology 2" className="w-1/8 mb-4" style={{ maxWidth: '50px' }} />
-              <img src={image3} alt="Technology 3" className="w-1/8 mb-4" style={{ maxWidth: '50px' }} />
-              <img src={image4} alt="Technology 4" className="w-1/8 mb-4" style={{ maxWidth: '50px' }} />
-            </div>
+            <h2 className="text-center lg:text-left text-3xl font-bold mb-6">About Me</h2>
+            <p className="text-lg mb-4">Hello, I'm a Web Developer with a passion for creating interactive and dynamic web applications. 
+              With over 3 years of experience in the industry, 
+              I have developed a deep understanding of modern web technologies and design principles.</p>
           </div>
-          
-          <h3 className="text-2xl font-semibold mb-2 mt-6" >Personal Interests</h3>
-          <p className="mb-2">In my free time, I enjoy Tennis, hiking, and experimenting with new web technologies.</p>
         </div>
       </section>
+
+      <div className=''>
+              <h3 className="text-2xl font-semibold mb-2 mt-5">Technologies</h3>
+              <ul className="list-disc pl-5 mb-4">
+                <li>HTML, CSS, JavaScript, React, Ruby on Rails</li>
+                <li>UI/UX Design, Responsive Web Design</li>
+              </ul>
+              <div className="flex justify-center  flex-wrap space-x-4">
+                <img src={image1} alt="Technology 1" className="w-1/8 mb-4" style={{ maxWidth: '50px' }} />
+                <img src={image2} alt="Technology 2" className="w-1/8 mb-4" style={{ maxWidth: '50px' }} />
+                <img src={image3} alt="Technology 3" className="w-1/8 mb-4" style={{ maxWidth: '50px' }} />
+                <img src={image4} alt="Technology 4" className="w-1/8 mb-4" style={{ maxWidth: '50px' }} />
+              </div>
+            </div>
+            
       {/* <ProgressBar progress={40} /> */}
       <Roadmap />
-
-      <div data-aos="fade-down">
-        <div className="process-section p-8">
-          <h2 className="text-center text-3xl font-bold mb-6">Process</h2>
-          <div className="relative">
-            <div className="vertical-navigation absolute top-0 right-0 flex flex-col items-center">
-              <a href="#step1" className="mb-4"><span className="dot"></span></a>
-              <a href="#step2" className="mb-4"><span className="dot"></span></a>
-              <a href="#step3" className="mb-4"><span className="dot"></span></a>
-            </div>
-            <div id="step1" className="step-content mb-6">
-              <h3 className="text-2xl font-semibold mb-2">Step 1: Initial Consultation</h3>
-              <p>Discussing your project requirements and goals.</p>
-            </div>
-            <div id="step2" className="step-content mb-6">
-              <h3 className="text-2xl font-semibold mb-2">Step 2: Planning and Design</h3>
-              <p>Creating a detailed plan and design mockups for your project.</p>
-            </div>
-            <div id="step3" className="step-content mb-6">
-              <h3 className="text-2xl font-semibold mb-2">Step 3: Development and Launch</h3>
-              <p>Developing your project and launch it successfully.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <h3 className="text-2xl font-semibold mb-2 mt-6" >Personal Interests</h3>
+      <p className="mb-16">In my free time, I enjoy tennis, gaming and experimenting with new web technologies.</p>
+     
 
       <div className="bg-black p-6 font-mono font-bold">
         <div 
@@ -100,7 +96,7 @@ function Body() {
           data-aos-easing="linear"
           data-aos-duration="1500"
         >
-          <h2 className="text-white font-bold mb-8">Previous Projects</h2>
+          <h2 className="text-yellow-300 font-bold mb-8">  showcase</h2>
           <ul className="list-disc list-inside text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 custom-bullets">
             <li>
               <a 
@@ -113,21 +109,24 @@ function Body() {
               </a>
             </li>
             <li>
-              <a 
+            <a 
                 href="https://wise-security.vercel.app/" 
+                
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className=" bg-yellow-500 p-4 text-black underline rounded-2xl block"
+                className=" bg-yellow-400 rounded-2xl p-4 text-black block"
               >
-                Wise Security
+            <img src={image56} alt="Technology 2" className="w-1/8 mb-4" />
+            A cyber security website project
               </a>
             </li>
+           
             <li>
               <a 
                 href="https://farmwise.co.ke/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className=" bg-yellow-500 p-4 text-black underline rounded-2xl block"
+                className=" bg-yellow-400 p-4 text-black underline rounded-2xl block"
               >
                 Farmwise
               </a>
@@ -137,7 +136,7 @@ function Body() {
                 href="https://paradise-club.vercel.app/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className=" bg-yellow-500 p-4 text-black underline rounded-2xl block"
+                className=" bg-yellow-400 p-4 text-black underline rounded-2xl block"
               >
                 Paradise Bar Lounge
               </a>
@@ -146,14 +145,17 @@ function Body() {
         </div>
       </div>
 
-      <div className="w-full">
-        <h4 className="ml-4 mt-5 text-2xl font-bold mb-4 p-9">Pricing</h4>
-        {/* Pricing content goes here */}
-      </div>
+      <div className="w-full mt-10">
+  <h4 className="ml-4 mt-5 text-2xl font-bold "></h4>
+  <div className="bg- p-8 rounded-xl shadow-lg mx-4">
+    <h2 className="text-center text-3xl font-bold mb-6">Web Development Pricing</h2>
+    <p className="text-lg text-center">My web development services range from <strong>$1000 to $2000</strong>, depending on the complexity of the project.</p>
+  </div>
+</div>
 
       <section className="ml-4 mr-4 rounded-2xl py-6">
         <div className="services-section rounded-2xl p-8">
-          <h2 className="text-center text-3xl font-bold mb-6">Other Services</h2>
+          <h2 className="text-center text-3xl font-bold mb-6"> Complementary Skills. </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="service-item bg-black text-yellow-300 p-4 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-2">Cyber-security</h3>
@@ -183,24 +185,24 @@ function Body() {
                 </div>
               )}
             </div>
-        <div class="service-item  p-4 rounded-lg shadow-md">
+        {/* <div class="service-item  p-4 rounded-lg shadow-md">
             <h3 class="text-xl font-semibold mb-2">Freelancing</h3>
             <p>Offering flexible freelancing services for diverse projects.</p>
-        </div>
+        </div> */}
     </div>
 </div>
       </section>
+<p>  A Quote</p>
 
-      {/* <div data-aos="fade-down">
-        <div className="py-20">
-          <h6 className="text-2xl font-bold mb-2">Hobbies</h6>
-          <ul className="list-disc list-inside">
-            <li>Tennis</li>
-            <li>Football</li>
-            <li>Swimming & Painting</li>
-          </ul>
-        </div>
-      </div> */}
+
+       <div className="back-to-top-button-container text-center py-4">
+        <button 
+          className="bg-yellow-500 text-black font-bold py-2 px-4 rounded-full border border-black"
+          onClick={scrollToTop}
+        >
+          Back to Top
+        </button>
+      </div>
     </div>
   );
 }
