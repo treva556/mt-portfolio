@@ -153,49 +153,52 @@ function Body() {
   </div>
 </div>
 
-      <section className="ml-4 mr-4 rounded-2xl py-6">
-        <div className="services-section rounded-2xl p-8">
-          <h2 className="text-center text-3xl font-bold mb-6"> Complementary Skills. </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="service-item bg-black text-yellow-300 p-4 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold mb-2">Cyber-security</h3>
-              <p>Develop robust server-side applications and APIs.</p>
-            </div>
-            <div className="service-item bg-black text-yellow-300 p-4 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold mb-2">Political Science</h3>
-              <p>Build responsive and modern websites with the latest technologies.</p>
-            </div>
-            <div className="service-item bg-black text-yellow-300 p-4 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold mb-2">Multi-Media</h3>
-              <p>Professional photography services for various needs.</p>
-              <button 
-                className="mt-2 text-blue-500 underline" 
-                onClick={toggleMultimediaDropdown}
-              >
-                {isMultimediaOpen ? 'Show Less' : 'Show More'}
-              </button>
-              {isMultimediaOpen && (
-                <div className="mt-2">
-                  <p>Additional information about multimedia services.</p>
-                  <ul className="list-disc list-inside">
-                    <li>Video production</li>
-                    <li>Graphic design</li>
-                    <li>Animation services</li>
-                  </ul>
-                </div>
-              )}
-            </div>
-        {/* <div class="service-item  p-4 rounded-lg shadow-md">
-            <h3 class="text-xl font-semibold mb-2">Freelancing</h3>
-            <p>Offering flexible freelancing services for diverse projects.</p>
-        </div> */}
+<section className="ml-4 mr-4 rounded-2xl py-6">
+  <div className="services-section rounded-2xl p-8">
+    <h2 className="text-center text-3xl font-bold mb-6">Complementary Skills</h2>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="service-item bg-black text-yellow-300 p-4 rounded-lg shadow-md">
+        <h3 className="text-xl font-semibold mb-2">Cyber-security</h3>
+        <p>Network security enthusist.</p>
+      </div>
+      <div className="service-item bg-black text-yellow-300 p-4 rounded-lg shadow-md">
+        <h3 className="text-xl font-semibold mb-2">Political Science</h3>
+        <p>Understanding and analyzing world policies and governance.</p>
+      </div>
+      <div className="service-item bg-black text-yellow-300 p-4 rounded-lg shadow-md">
+        <h3 className="text-xl font-semibold mb-2">Multi-Media</h3>
+        <p>Creating engaging content through video production, graphic design, and animation.</p>
+        <button 
+          className="mt-2 text-blue-500 underline" 
+          onClick={toggleMultimediaDropdown}
+        >
+          {isMultimediaOpen ? 'Show Less' : 'Show More'}
+        </button>
+        {isMultimediaOpen && (
+          <div className="mt-2">
+            <p>Additional information about multimedia services:</p>
+            <ul className="list-disc list-inside">
+              <li>Video production</li>
+              <li>Graphic design</li>
+              <li>Animation services</li>
+              <li>Photography</li>
+            </ul>
+          </div>
+        )}
+      </div>
+      {/* <div class="service-item  p-4 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold mb-2">Freelancing</h3>
+        <p>Offering flexible freelancing services for diverse projects.</p>
+      </div> */}
     </div>
-</div>
-      </section>
-<p>  A Quote</p>
+  </div>
+</section>
 
 
-       <div className="back-to-top-button-container text-center py-4">
+<p> The best way to predict the future is to create it.</p>
+
+
+       <div className="back-to-top-button-container text-center py-4 mt-4">
         <button 
           className="bg-yellow-500 text-black font-bold py-2 px-4 rounded-full border border-black"
           onClick={scrollToTop}
