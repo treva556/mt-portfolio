@@ -25,7 +25,8 @@
   min-height: 3rem; /* Adjust this value based on your text size */
 }
 
-
-.bg11 {
-  background-color: #C9DEFF ;
+code {
+  font-family: monospace; /* Ensures the text looks like code */
 }
+
+/*  */
