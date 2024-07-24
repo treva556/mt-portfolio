@@ -49,7 +49,7 @@ function Body() {
               typingDelay={500}
             />
             </div>
-          <h1 className="text-5xl text-black font-bold mt-5">Designing Digital Experiences</h1>
+          <h1 className="text-5xl text-black font-bold mt-5">I Design Digital Experiences</h1>
           <div className="mt-10 text-black text-lg font-mono typing-effect-container" style={{ display: 'inline-block', width: '100%' }}>
                 
                 <p> Creating visually appealing, intuitive, and interactive websites that provide exceptional user experiences. </p>
@@ -63,7 +63,7 @@ function Body() {
 
           <div>
             <h2 className="text-center lg:text-left text-3xl font-bold mb-6">About Me</h2>
-            <p className="text-lg mb-4">Hello, I'm a Web Developer with a passion for creating interactive and dynamic web applications. 
+            <p className="text-lg mb-4">Hello, I'm a Full Stack Web Developer with a passion for creating interactive and dynamic web applications. 
               With over 3 years of experience in the industry, 
               I have developed a deep understanding of modern web technologies and design principles.</p>
           </div>
