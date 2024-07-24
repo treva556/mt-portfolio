@@ -3,10 +3,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 import './App.css'; // Assuming you have Tailwind configured here
-import Services from './pages/services';
 import Body from './pages/home'; // Home component
 import Nav from './components/navbar';
 import Footer from './components/footer';
+import Blogs from './pages/Blogs';
 // import About from './sections/About'; // About component
 // import Contacts from './sections/Contacts'; // Contacts component
 
@@ -20,7 +20,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Body />} />
-          <Route path="/services" element={<Services />} />
+          <Route path="/blogs" element={<Blogs/>} />
           {/* <Route path="/about" element={<About />} /> */}
           {/* <Route path="/contacts" element={<Contacts />} /> */}
         </Routes>
