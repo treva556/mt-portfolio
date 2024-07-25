@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
 import ReactTypingEffect from 'react-typing-effect';
 import ProgressBar from '../components/progress';
 import Roadmap from '../components/roadmap';
+import Pricing from './pricing';
 import image1 from '../assets/html.png';
 import image2 from '../assets/js.png';
 import image3 from '../assets/rails.png';
@@ -14,6 +15,7 @@ import image4 from '../assets/react.png';
 import image85 from '../assets/Group 85.png';
 import image55 from '../assets/yj.jpeg';
 import image56 from '../assets/yy.jpeg';
+import { Link } from 'react-router-dom';
 
 AOS.init();
 
@@ -149,7 +151,14 @@ function Body() {
   <h4 className="ml-4 mt-5 text-2xl font-bold "></h4>
   <div className="bg- p-8 rounded-xl shadow-lg mx-4">
     <h2 className="text-center text-3xl font-bold mb-6">Web Development Pricing</h2>
-    <p className="text-lg text-center">My web development services range from <strong>$750 to $2000</strong>, depending on the complexity of the project.</p>
+    <p className="text-lg text-center">My web development services range from <strong>$500 to $2000</strong>, depending on the complexity of the project.</p>
+    <div className=' mt-6'>
+    <Link to="/pricing" className=' bg-yellow-400 p-4 text-black underline rounded-2xl block'>Learn more</Link>
+
+   
+    </div>
+    
+
   </div>
 </div>
 

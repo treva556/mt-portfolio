@@ -7,6 +7,7 @@ import Body from './pages/home'; // Home component
 import Nav from './components/navbar';
 import Footer from './components/footer';
 import Blogs from './pages/Blogs';
+import Pricing from './pages/pricing';
 // import About from './sections/About'; // About component
 // import Contacts from './sections/Contacts'; // Contacts component
 
@@ -21,6 +22,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Body />} />
           <Route path="/blogs" element={<Blogs/>} />
+          <Route path="/pricing" element={<Pricing/>} />
+
           {/* <Route path="/about" element={<About />} /> */}
           {/* <Route path="/contacts" element={<Contacts />} /> */}
         </Routes>
