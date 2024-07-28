@@ -11,7 +11,7 @@ function Footer () {
     <div className="font-mono p-10 bg-black text-yellow-300">
     <p className='font-bold text-2xl underline'> Connect With Me </p>
     <div className='mt-3'>
-      <p>Phone: 0795156256</p>
+      <p>Phone: +254795156256</p>
       <p>Email: marktreva92@gmail.com</p>
       <div className="flex justify-center items-center">
       <a 
