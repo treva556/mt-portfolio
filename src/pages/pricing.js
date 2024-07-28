@@ -10,8 +10,7 @@ function Pricing() {
     <>
     <div className=' bg-yellow-400 p-24 font-bold font-mono text-4xl'>
   "Currently not updated"
-
-
+  <p className=' text-xl mt-6'> Contact me for more information</p>
 
     </div>
 
