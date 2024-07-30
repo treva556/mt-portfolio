@@ -145,6 +145,7 @@ function Body() {
             </li>
           </ul>
         </div>
+        <p className=' text-white mt-5 underline'>show more</p>
       </div>
 
       <div className="w-full mt-10">
@@ -180,7 +181,7 @@ function Body() {
         <h3 className="text-xl font-semibold mb-2">Multi-Media</h3>
         <p>Creating engaging content through video production, graphic design, and animation.</p>
         <button 
-          className="mt-2 text-blue-500 underline" 
+          className="mt-2 text-white underline" 
           onClick={toggleMultimediaDropdown}
         >
           {isMultimediaOpen ? 'Show Less' : 'Show More'}
