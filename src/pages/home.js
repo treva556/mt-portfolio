@@ -125,7 +125,7 @@ function Body() {
             </li>
             <li>
             <a 
-                href="https://wise-security.vercel.app/" 
+                href="https://flight-school-rose.vercel.app/" 
                 
                 target="_blank" 
                 rel="noopener noreferrer" 
