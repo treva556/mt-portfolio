@@ -8,7 +8,7 @@ import Nav from './components/navbar';
 import Footer from './components/footer';
 import Blogs from './pages/Blogs';
 import Pricing from './pages/pricing';
-// import About from './sections/About'; // About component
+import Projects from './pages/projects';// import About from './sections/About'; // About component
 // import Contacts from './sections/Contacts'; // Contacts component
 
 function App() {
@@ -23,6 +23,7 @@ function App() {
           <Route path="/" element={<Body />} />
           <Route path="/blogs" element={<Blogs/>} />
           <Route path="/pricing" element={<Pricing/>} />
+          <Route path="/projects" element={<Projects/>} />
 
           {/* <Route path="/about" element={<About />} /> */}
           {/* <Route path="/contacts" element={<Contacts />} /> */}

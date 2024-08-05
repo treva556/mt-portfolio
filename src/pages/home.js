@@ -139,7 +139,7 @@ function Body() {
 
             <li>
             <a 
-                href="https://flight-school-rose.vercel.app/" 
+                href="https://logistics-app-six.vercel.app/" 
                 
                 target="_blank" 
                 rel="noopener noreferrer" 
@@ -173,7 +173,8 @@ function Body() {
            
           </ul>
         </div>
-        <p className=' text-white mt-5 underline'>show more</p>
+        <Link to="/projects" className=' text-white underline rounded-2xl block mt-4'>show more</Link>
+
       </div>
 
       <div className="w-full mt-10">
