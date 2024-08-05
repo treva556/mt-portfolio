@@ -15,6 +15,7 @@ import image4 from '../assets/react.png';
 import image85 from '../assets/Group 85.png';
 import image55 from '../assets/yj.jpeg';
 import FS from '../assets/FS.jpeg';
+import WLS from '../assets/wls.jpeg';
 import image56 from '../assets/yy.jpeg';
 import { Link } from 'react-router-dom';
 
@@ -135,6 +136,19 @@ function Body() {
             A Flight School Web project
               </a>
             </li>
+
+            <li>
+            <a 
+                href="https://flight-school-rose.vercel.app/" 
+                
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className=" bg-yellow-400 rounded-2xl p-4 text-black block"
+              >
+            <img src={WLS} alt="Technology 2" className="w-1/8 mb-4" />
+            A Logistics company website
+              </a>
+            </li>
            
             <li>
               <a 
@@ -156,6 +170,7 @@ function Body() {
                 Paradise Bar Lounge
               </a>
             </li>
+           
           </ul>
         </div>
         <p className=' text-white mt-5 underline'>show more</p>
