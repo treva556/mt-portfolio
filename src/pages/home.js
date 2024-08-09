@@ -12,6 +12,7 @@ import image1 from '../assets/html.png';
 import image2 from '../assets/js.png';
 import image3 from '../assets/rails.png';
 import image4 from '../assets/react.png';
+import paradise from '../assets/paradise.jpeg';
 import image85 from '../assets/Group 85.png';
 import image55 from '../assets/yj.jpeg';
 import FS from '../assets/FS.jpeg';
@@ -161,16 +162,18 @@ function Body() {
               </a>
             </li>
             <li>
-              <a 
+            <a 
                 href="https://paradise-club.vercel.app/" 
+                
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className=" bg-yellow-400 p-4 text-black underline rounded-2xl block"
+                className=" bg-yellow-400 rounded-2xl p-4 text-black block"
               >
-                Paradise Bar Lounge
+            <img src={paradise} alt="Technology 2" className="w-1/8 mb-4" />
+            Paradise Cocktails
               </a>
             </li>
-           
+          
           </ul>
         </div>
         <Link to="/projects" className=' text-white underline rounded-2xl block mt-4'>show more</Link>
