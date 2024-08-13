@@ -63,23 +63,22 @@ function Body() {
         </div>
       </header>
    
-      <section className=" grid grid-cols-1 lg:grid-cols-2 mb-4 ml-4 mr-4 rounded-3xl py-2">
-  <div className="p-1 items-center  lg:space-x-2">
+      <section className="grid grid-cols-1 lg:grid-cols-2 mb-4 ml-4 mr-4 rounded-3xl py-2">
+  <div className="flex items-center justify-center p-1">
     <img 
       src={image85} 
       alt="Technology 4" 
       className="w-full lg:w-3/4 max-w-md mb-2 lg:mb-0" 
     />
-     </div>
-    <div className=" p-8 lg:ml-2">
-      <h2 className=" text-center lg:text-left text-3xl font-bold mb-6">About Me</h2>
-      <p className="text-lg mb-4">
-        Hello, I'm a Full Stack Web Developer with a passion for creating interactive and dynamic web applications.
-        With over 3 years of experience in the industry, 
-        I have developed a deep understanding of modern web technologies and design principles.
-      </p>
-    </div>
- 
+  </div>
+  <div className="p-2 lg:pr-10 lg:mt-36 lg:ml-2">
+    <h2 className="text-center text-3xl font-bold mb-6">About Me</h2>
+    <p className="text-lg mb-4">
+      Hello, I'm a Full Stack Web Developer with a passion for creating interactive and dynamic web applications.
+      With over 3 years of experience in the industry, 
+      I have developed a deep understanding of modern web technologies and design principles.
+    </p>
+  </div>
 </section>
 
       <div className=''>
@@ -102,13 +101,13 @@ function Body() {
       <p className="mb-16">In my free time, I enjoy tennis, gaming and experimenting with new web technologies.</p>
      
 
-      <div className="bg-black p-6 font-mono font-bold">
+      <div className="bg-black lg:ml-60 lg:mr-60  font-mono font-bold p-10">
         <div 
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="1500"
         >
-          <h2 className="text-yellow-300 font-bold mb-8">  showcase</h2>
+          <h2 className="text-yellow-300 font-bold text-3xl mb-8">  showcase</h2>
           <ul className="list-disc list-inside text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 custom-bullets">
             <li>
               <a 

@@ -34,7 +34,7 @@ function Nav() {
             <div className={`${isMenuOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`} id="navbar-default">
               <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:ml-auto rtl:space-x-reverse md:mt-0 md:border-0">
                 <li>
-                  <a href="/" className="block py-2 px-3 text-yellow-400 bg-yellow-400 rounded md:bg-transparent md:p-0 dark:text-yellow" aria-current="page">Home</a>
+                  <a href="/" className="block py-2 px-3 text-black bg-yellow-400 rounded md:bg-transparent md:p-0 dark:text-yellow" aria-current="page">Home</a>
                 </li>
                 {/* <li>
                   <a href="#" className="block py-2 px-3 text-yellow-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-yellow-300 dark:hover:bg-gray-700 dark:hover:text-yellow-400 md:dark:hover:bg-transparent">Pricing</a>
