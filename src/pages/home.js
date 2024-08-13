@@ -18,6 +18,8 @@ import image55 from '../assets/yj.jpeg';
 import FS from '../assets/FS.jpeg';
 import WLS from '../assets/wls.jpeg';
 import image56 from '../assets/yy.jpeg';
+import Figma from '../assets/figma.png';
+import Next from '../assets/nextjs.svg';
 import { Link } from 'react-router-dom';
 
 AOS.init();
@@ -84,14 +86,18 @@ function Body() {
       <div className=''>
               <h3 className="text-2xl font-semibold mb-2 mt-5">Technologies</h3>
               <ul className="list-disc pl-5 mb-4">
-                <li>HTML, CSS, JavaScript, React, Ruby on Rails</li>
+                <li>HTML, CSS, Tailwind,  JavaScript, React, Ruby on Rails</li>
                 <li>UI/UX Design, Responsive Web Design</li>
               </ul>
               <div className="flex justify-center  flex-wrap space-x-4">
+                
+                <img src={Figma} alt="Technology 4" className="w-1/8 mb-4" style={{ maxWidth: '50px' }} />
                 <img src={image1} alt="Technology 1" className="w-1/8 mb-4" style={{ maxWidth: '50px' }} />
                 <img src={image2} alt="Technology 2" className="w-1/8 mb-4" style={{ maxWidth: '50px' }} />
                 <img src={image3} alt="Technology 3" className="w-1/8 mb-4" style={{ maxWidth: '50px' }} />
-                <img src={image4} alt="Technology 4" className="w-1/8 mb-4" style={{ maxWidth: '50px' }} />
+                <img src={image4} alt="Technology 4" className="w-1/8 mb-4" style={{ maxWidth: '50px' }} />,
+                <img src={Next} alt="Technology 4" className="w-1/8 mb-4" style={{ maxWidth: '50px' }} />
+
               </div>
             </div>
             
