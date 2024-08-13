@@ -63,22 +63,23 @@ function Body() {
         </div>
       </header>
    
-      <section className="mb-4 ml-4 mr-4 rounded-3xl py-2">
-  <div className="p-1 flex flex-col lg:flex-row items-center lg:items-start lg:space-x-8">
+      <section className=" grid grid-cols-1 lg:grid-cols-2 mb-4 ml-4 mr-4 rounded-3xl py-2">
+  <div className="p-1 items-center  lg:space-x-2">
     <img 
       src={image85} 
       alt="Technology 4" 
       className="w-full lg:w-3/4 max-w-md mb-2 lg:mb-0" 
     />
-    <div className="lg:ml-6">
-      <h2 className="text-center lg:text-left text-3xl font-bold mb-6">About Me</h2>
+     </div>
+    <div className=" p-8 lg:ml-2">
+      <h2 className=" text-center lg:text-left text-3xl font-bold mb-6">About Me</h2>
       <p className="text-lg mb-4">
         Hello, I'm a Full Stack Web Developer with a passion for creating interactive and dynamic web applications.
         With over 3 years of experience in the industry, 
         I have developed a deep understanding of modern web technologies and design principles.
       </p>
     </div>
-  </div>
+ 
 </section>
 
       <div className=''>
