@@ -62,18 +62,24 @@ function Body() {
           </div>
         </div>
       </header>
-      <section className="mb-1 ml-4 mr-4 rounded-3xl py-10">
-        <div className="about-me-section p-8 flex flex-col lg:flex-row items-center lg:items-start lg:space-x-8">
-        <img src={image85} alt="Technology 4" className=" w-5/6 lg:w-3/4 mb-4 lg:mb-0 p-10" />
-
-          <div>
-            <h2 className="text-center lg:text-left text-3xl font-bold mb-6">About Me</h2>
-            <p className="text-lg mb-4">Hello, I'm a Full Stack Web Developer with a passion for creating interactive and dynamic web applications. 
-              With over 3 years of experience in the industry, 
-              I have developed a deep understanding of modern web technologies and design principles.</p>
-          </div>
-        </div>
-      </section>
+   
+      <section className="mb-4 ml-4 mr-4 rounded-3xl py-2">
+  <div className="p-1 flex flex-col lg:flex-row items-center lg:items-start lg:space-x-8">
+    <img 
+      src={image85} 
+      alt="Technology 4" 
+      className="w-full lg:w-3/4 max-w-md mb-2 lg:mb-0" 
+    />
+    <div className="lg:ml-6">
+      <h2 className="text-center lg:text-left text-3xl font-bold mb-6">About Me</h2>
+      <p className="text-lg mb-4">
+        Hello, I'm a Full Stack Web Developer with a passion for creating interactive and dynamic web applications.
+        With over 3 years of experience in the industry, 
+        I have developed a deep understanding of modern web technologies and design principles.
+      </p>
+    </div>
+  </div>
+</section>
 
       <div className=''>
               <h3 className="text-2xl font-semibold mb-2 mt-5">Technologies</h3>
@@ -203,7 +209,7 @@ function Body() {
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <div className="service-item bg-black text-yellow-300 p-4 rounded-lg shadow-md">
         <h3 className="text-xl font-semibold mb-2">Cyber-security</h3>
-        <p>Network security enthusist.</p>
+        <p>Systems security enthusist.</p>
       </div>
       <div className="service-item bg-black text-yellow-300 p-4 rounded-lg shadow-md">
         <h3 className="text-xl font-semibold mb-2">Political Science</h3>
