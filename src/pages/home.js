@@ -180,6 +180,42 @@ function Body() {
               </a>
             </li>
           
+            <li>
+            <a 
+                href="https://logistics-app-six.vercel.app/" 
+                
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className=" bg-yellow-400 rounded-2xl p-4 text-black block"
+              >
+            <img src={WLS} alt="Technology 2" className="w-1/8 mb-4" />
+            Full Stack Blog App
+              </a>
+            </li>
+           
+            <li>
+              <a 
+                href="https://farmwise.co.ke/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className=" bg-yellow-400 p-4 text-black underline rounded-2xl block"
+              >
+                Jewelry Shop
+              </a>
+            </li>
+            <li>
+            <a 
+                href="https://paradise-club.vercel.app/" 
+                
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className=" bg-yellow-400 rounded-2xl p-4 text-black block"
+              >
+            <img src={paradise} alt="Technology 2" className="w-1/8 mb-4" />
+            NGO
+              </a>
+            </li>
+
           </ul>
         </div>
         <Link to="/projects" className=' text-white underline rounded-2xl block mt-4'>show more</Link>
