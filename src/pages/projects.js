@@ -12,7 +12,7 @@ import image56 from '../assets/yy.jpeg';
 function Projects() {
   return (
     <>
-    <div className=' bg-gray-800 '>
+    <div className=' pb-3 bg-gray-800 '>
 
    
     <div className=' bg-yellow-400 p-24 font-bold font-mono text-4xl'>
