@@ -17,6 +17,7 @@ import image85 from '../assets/Group 85.png';
 import image55 from '../assets/yj.jpeg';
 import FS from '../assets/FS.jpeg';
 import WLS from '../assets/wls.jpeg';
+import Mongo from '../assets/mongo.png';
 import image56 from '../assets/yy.jpeg';
 import Figma from '../assets/figma.png';
 import Next from '../assets/nextjs.svg';
@@ -96,7 +97,9 @@ function Body() {
                 <img src={image2} alt="Technology 2" className="w-1/8 mb-4" style={{ maxWidth: '50px' }} />
                 <img src={image3} alt="Technology 3" className="w-1/8 mb-4" style={{ maxWidth: '50px' }} />
                 <img src={image4} alt="Technology 4" className="w-1/8 mb-4" style={{ maxWidth: '50px' }} />,
-                <img src={Next} alt="Technology 4" className="w-1/8 mb-4" style={{ maxWidth: '50px' }} />
+                <img src={Next} alt="Technology 5" className="w-1/8 mb-4" style={{ maxWidth: '50px' }} />
+                <img src={Mongo} alt="Technology 6" className="w-1/8 mb-4" style={{ maxWidth: '50px' }} />
+
 
               </div>
             </div>
