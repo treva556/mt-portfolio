@@ -17,6 +17,8 @@ import image85 from '../assets/Group 85.png';
 import image55 from '../assets/yj.jpeg';
 import FS from '../assets/FS.jpeg';
 import WLS from '../assets/wls.jpeg';
+import Prop from '../assets/prop.jpeg';
+import Blog from '../assets/blog.jpeg';
 import Mongo from '../assets/mongo.png';
 import image56 from '../assets/yy.jpeg';
 import Figma from '../assets/figma.png';
@@ -118,14 +120,17 @@ function Body() {
         >
           <h2 className="text-yellow-300 font-bold text-3xl mb-8">  showcase</h2>
           <ul className="list-disc list-inside text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 custom-bullets">
+           
             <li>
-              <a 
-                href="https://wise-properties.vercel.app/" 
+            <a 
+                 href="https://wise-properties.vercel.app/" 
+                
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className=" bg-yellow-400 rounded-2xl p-4 text-black underline block"
+                className=" bg-yellow-400 rounded-2xl p-4 text-black block"
               >
-                Wise Properties
+            <img src={Prop} alt="Technology 2" className="w-1/8 mb-4" />
+            A cyber security website project
               </a>
             </li>
             <li>
@@ -191,13 +196,13 @@ function Body() {
           
             <li>
             <a 
-                href="https://logistics-app-six.vercel.app/" 
+                href="https://posts-2-git-main-treva556s-projects.vercel.app/" 
                 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className=" bg-yellow-400 rounded-2xl p-4 text-black block"
               >
-            <img src={WLS} alt="Technology 2" className="w-1/8 mb-4" />
+            <img src={Blog} alt="Technology 2" className="w-1/8 mb-4" />
             Full Stack Blog App
               </a>
             </li>
