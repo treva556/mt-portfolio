@@ -158,7 +158,7 @@ function Body() {
               </a>
             </li>
 
-            <li>
+            {/* <li>
             <a 
                 href="https://logistics-app-six.vercel.app/" 
                 
@@ -170,7 +170,7 @@ function Body() {
             A Logistics company website
               </a>
             </li>
-           
+            */}
             <li>
               <a 
                 href="https://farmwise.co.ke/" 
@@ -206,7 +206,7 @@ function Body() {
             Full Stack Blog App
               </a>
             </li>
-           
+{/*            
             <li>
               <a 
                 href="https://farmwise.co.ke/" 
@@ -216,7 +216,7 @@ function Body() {
               >
                 Jewelry Shop
               </a>
-            </li>
+            </li> */}
             <li>
             <a 
                 href="https://paradise-club.vercel.app/" 
