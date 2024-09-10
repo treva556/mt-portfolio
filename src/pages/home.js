@@ -83,6 +83,7 @@ function Body() {
       With over 3 years of experience in the industry, 
       I have developed a deep understanding of modern web technologies and design principles.
     </p>
+    <h4 className=' font-bold'> I believe in being a lifelong student, always ready to expand my mind</h4>
   </div>
 </section>
 
