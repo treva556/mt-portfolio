@@ -14,7 +14,13 @@ function Nav() {
       <nav className="border-gray-200">
         <div className="relative max-w-screen-xl flex items-center justify-between mx-auto p-4">
           {/* Left part: Image */}
-          <img src={im56} alt="Technology 2" className="h-10" />
+
+                <li>
+                  <a href="/" className="block py-2 px-3 text-black md:ml-8  rounded md:bg-transparent md:p-0 dark:text-yellow" aria-current="page">
+                  <img src={im56} alt="Technology 2" className="h-10" />
+
+                  </a>
+                </li>
           
           {/* Right part: Navigation and Hamburger */}
           <div className="flex items-center">
@@ -33,14 +39,16 @@ function Nav() {
             </button>
             <div className={`${isMenuOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`} id="navbar-default">
               <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:ml-auto rtl:space-x-reverse md:mt-0 md:border-0">
-                <li>
-                  <a href="/" className="block py-2 px-3 text-black bg-yellow-400 rounded md:bg-transparent md:p-0 dark:text-yellow" aria-current="page">Home</a>
-                </li>
+                {/* <li>
+                  <a href="/" className="block py-2 px-3 text-black bg-yellow-400 rounded md:bg-transparent md:p-0 dark:text-yellow" aria-current="page">
+                  
+                  </a>
+                </li> */}
                 {/* <li>
                   <a href="#" className="block py-2 px-3 text-yellow-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-yellow-300 dark:hover:bg-gray-700 dark:hover:text-yellow-400 md:dark:hover:bg-transparent">Pricing</a>
                 </li> */}
                 <li>
-                  <a href="/blogs" className="block py-2 px-3 text-yellow-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-yellow-300 dark:hover:bg-gray-700 dark:hover:text-yellow-400 md:dark:hover:bg-transparent">Blogs</a>
+                  <a href="/blogs" className="block py-2 px-3 text-yellow-400 rounded md:mr-20 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-yellow-300 dark:hover:bg-gray-700 dark:hover:text-yellow-400 md:dark:hover:bg-transparent">Blogs</a>
                 </li>
               </ul>
             </div>
