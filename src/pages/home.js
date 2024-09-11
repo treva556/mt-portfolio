@@ -279,8 +279,8 @@ function Body() {
             <p>Additional information about multimedia services:</p>
             <ul className="list-disc list-inside">
               <li>Video production</li>
-              <li>Graphic design</li>
-              <li>Animation services</li>
+              {/* <li>Graphic design</li>
+              <li>Animation services</li> */}
               <li>Photography</li>
             </ul>
           </div>
