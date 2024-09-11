@@ -79,9 +79,8 @@ function Body() {
   <div className="p-2 lg:pr-10 lg:mt-36 lg:ml-2">
     <h2 className="text-center text-3xl font-bold mb-6">About Me</h2>
     <p className="text-lg mb-4">
-      Hello, I'm a Full Stack Web Developer with a passion for creating interactive and dynamic web applications.
-      With over 3 years of experience in the industry, 
-      I have developed a deep understanding of modern web technologies and design principles.
+      I am a Full Stack Web Developer with a passion for creating interactive and dynamic web applications.
+      With over 3 years of experience in the industry,I have developed a deep understanding of modern web technologies and design principles.
     </p>
     <h4 className=' font-bold'> I believe in being a lifelong student, always ready to expand my mind</h4>
   </div>
