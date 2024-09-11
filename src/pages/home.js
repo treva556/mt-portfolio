@@ -91,7 +91,7 @@ function Body() {
               <h3 className="text-2xl font-semibold mb-2 mt-5">Technologies</h3>
               <ul className="list-disc pl-5 mb-4">
                 <li>HTML, CSS, Tailwind,  JavaScript, React, Ruby on Rails</li>
-                <li>UI/UX Design, Responsive Web Design</li>
+                <li>UI/UX Design, Next Js</li>
               </ul>
               <div className="flex justify-center  flex-wrap space-x-4">
                 
@@ -131,7 +131,7 @@ function Body() {
                 className=" bg-yellow-400 rounded-2xl p-4 text-black block"
               >
             <img src={Prop} alt="Technology 2" className="w-1/8 mb-4" />
-            A cyber security website project
+            A Real Estate project
               </a>
             </li>
             <li>
