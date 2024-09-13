@@ -3,7 +3,7 @@
 
 //////App code 
 import React from 'react';
-import '../App.css'; // Assuming you have Tailwind configured here
+import '../App.css'; 
 
 
 function Blogs() {
@@ -33,6 +33,13 @@ function Blogs() {
     
       <details>
         <summary class="py-2 outline-none cursor-pointer focus:underline"> Essential Soft Skills for Computer Scientists: Beyond Coding</summary>
+        <div class="px-4 pb-4">
+          <p>If you have any questions, concerns, or need assistance, you can reach our customer support team at 9911083755 during our business hours, Monday to Saturday from 10 am to 6 pm. You can also contact us via email at <a href="" class="underline">example@gmail.com</a>.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary class="py-2 outline-none cursor-pointer focus:underline"> Most common Data Structures </summary>
         <div class="px-4 pb-4">
           <p>If you have any questions, concerns, or need assistance, you can reach our customer support team at 9911083755 during our business hours, Monday to Saturday from 10 am to 6 pm. You can also contact us via email at <a href="" class="underline">example@gmail.com</a>.</p>
         </div>
