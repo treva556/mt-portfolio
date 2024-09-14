@@ -3,7 +3,6 @@
 }
 
 
-
 .color1 {
   background-color: #6AA6FF;
 }
@@ -29,3 +28,23 @@ code {
 }
 
 /*  */
+
+.mySwiper .swiper-pagination-bullet {
+  background-color: white;
+  opacity: 1;
+}
+
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+  color: white;
+  opacity: 1;
+}
+
+.mySwiper .swiper-button-next:after,
+.mySwiper .swiper-button-prev:after {
+  font-size: 20px; /* Adjust arrow size (optional) */
+  content: "\f105"; /* Arrow icon from Font Awesome (optional) */
+  font-family: FontAwesome; /* Include Font Awesome (optional) */
+}
+
+

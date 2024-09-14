@@ -4,6 +4,7 @@
 //////App code 
 import React from 'react';
 import '../App.css'; 
+import Carousel from '../components/swapper';
 
 
 function Blogs() {

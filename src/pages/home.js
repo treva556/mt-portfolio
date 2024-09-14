@@ -4,6 +4,9 @@ import React, { useState } from 'react';
 import '../App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+
+import Swapper from '../components/swapper';
+
 import ReactTypingEffect from 'react-typing-effect';
 import ProgressBar from '../components/progress';
 import Roadmap from '../components/roadmap';
@@ -15,12 +18,12 @@ import image4 from '../assets/react.png';
 import paradise from '../assets/paradise.jpeg';
 import image85 from '../assets/Group 85.png';
 import image55 from '../assets/yj.jpeg';
-import FS from '../assets/FS.jpeg';
+
 import WLS from '../assets/wls.jpeg';
-import Prop from '../assets/prop.jpeg';
+
 import Blog from '../assets/blog.jpeg';
 import Mongo from '../assets/mongo.png';
-import image56 from '../assets/yy.jpeg';
+
 import Figma from '../assets/figma.png';
 import Next from '../assets/nextjs.svg';
 import { Link } from 'react-router-dom';
@@ -112,125 +115,15 @@ function Body() {
       <p className="mb-16">In my free time, I enjoy tennis, gaming and experimenting with new web technologies.</p>
      
 
-      <div className="bg-black lg:ml-60 lg:mr-60  font-mono font-bold p-10">
+      <div className=" bg-black lg:ml-60 lg:mr-60  font-mono font-bold p-10">
         <div 
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="1500"
         >
           <h2 className="text-yellow-300 font-bold text-3xl mb-8">  showcase</h2>
-          <ul className="list-disc list-inside text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 custom-bullets">
-           
-            <li>
-            <a 
-                 href="https://wise-properties.vercel.app/" 
-                
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className=" bg-yellow-400 rounded-2xl p-4 text-black block"
-              >
-            <img src={Prop} alt="Technology 2" className="w-1/8 mb-4" />
-            A Real Estate project
-              </a>
-            </li>
-            <li>
-            <a 
-                href="https://wise-security.vercel.app/" 
-                
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className=" bg-yellow-400 rounded-2xl p-4 text-black block"
-              >
-            <img src={image56} alt="Technology 2" className="w-1/8 mb-4" />
-            A cyber security website project
-              </a>
-            </li>
-            <li>
-            <a 
-                href="https://flight-school-rose.vercel.app/" 
-                
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className=" bg-yellow-400 rounded-2xl p-4 text-black block"
-              >
-            <img src={FS} alt="Technology 2" className="w-1/8 mb-4" />
-            A Flight School Web project
-              </a>
-            </li>
-
-            {/* <li>
-            <a 
-                href="https://logistics-app-six.vercel.app/" 
-                
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className=" bg-yellow-400 rounded-2xl p-4 text-black block"
-              >
-            <img src={WLS} alt="Technology 2" className="w-1/8 mb-4" />
-            A Logistics company website
-              </a>
-            </li>
-            */}
-            <li>
-              <a 
-                href="https://farmwise.co.ke/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className=" bg-yellow-400 p-4 text-black underline rounded-2xl block"
-              >
-                Farmwise
-              </a>
-            </li>
-            <li>
-            <a 
-                href="https://paradise-club.vercel.app/" 
-                
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className=" bg-yellow-400 rounded-2xl p-4 text-black block"
-              >
-            <img src={paradise} alt="Technology 2" className="w-1/8 mb-4" />
-            Paradise Cocktails
-              </a>
-            </li>
-          
-            <li>
-            <a 
-                href="https://posts-2-git-main-treva556s-projects.vercel.app/" 
-                
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className=" bg-yellow-400 rounded-2xl p-4 text-black block"
-              >
-            <img src={Blog} alt="Technology 2" className="w-1/8 mb-4" />
-            Full Stack Blog App
-              </a>
-            </li>
-{/*            
-            <li>
-              <a 
-                href="https://farmwise.co.ke/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className=" bg-yellow-400 p-4 text-black underline rounded-2xl block"
-              >
-                Jewelry Shop
-              </a>
-            </li> */}
-            <li>
-            <a 
-                href="https://ngo-five.vercel.app/" 
-                
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className=" bg-yellow-400 rounded-2xl p-4 text-black block"
-              >
-            <img src={paradise} alt="Technology 2" className="w-1/8 mb-4" />
-            NGO
-              </a>
-            </li>
-
-          </ul>
+         <Swapper/>
+         <h3 className=' text-white'>  --- Swipe----</h3>
         </div>
         <Link to="/projects" className=' text-white underline rounded-2xl block mt-4'>show more</Link>
 
