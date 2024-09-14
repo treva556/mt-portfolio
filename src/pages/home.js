@@ -31,10 +31,19 @@ import { Link } from 'react-router-dom';
 AOS.init();
 
 function Body() {
-  const [isMultimediaOpen, setIsMultimediaOpen] = useState(false);
+  const [openSections, setOpenSections] = useState({
+    adaptability: false,
+    collaboration: false,
+    problemSolving: false,
+    // multimedia: false,
+  });
+  
 
-  const toggleMultimediaDropdown = () => {
-    setIsMultimediaOpen(!isMultimediaOpen);
+  const toggleSection = (section) => {
+    setOpenSections((prev) => ({
+      ...prev,
+      [section]: !prev[section]
+    }));
   };
 
   const scrollToTop = () => {
@@ -129,6 +138,63 @@ function Body() {
 
       </div>
 
+      <section className="ml-4 mr-4 rounded-2xl py-6">
+  <div className="services-section rounded-2xl p-8">
+    <h2 className="text-center text-3xl font-bold mb-6">Soft Skills</h2>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      
+    <div className="service-item bg-black text-yellow-300 p-4 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold mb-2">Adaptability and Flexibility</h3>
+              <button 
+                className="mt-2 text-white underline" 
+                onClick={() => toggleSection('adaptability')}
+              >
+                {openSections.adaptability ? 'Show Less' : 'Show More'}
+              </button>
+              {openSections.adaptability && (
+                <div className="mt-2">
+                  <p>Willingness to learn new technologies, tools, and methodologies as the industry evolves and adjusting to changing project requirements and adapting to new workflows or team structures.</p>
+                </div>
+              )}
+            </div>
+
+            <div className="service-item bg-black text-yellow-300 p-4 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold mb-2">Collaboration and Teamwork</h3>
+              <button 
+                className="mt-2 text-white underline" 
+                onClick={() => toggleSection('collaboration')}
+              >
+                {openSections.collaboration ? 'Show Less' : 'Show More'}
+              </button>
+              {openSections.collaboration && (
+                <div className="mt-2">
+                  <p>Working effectively with other developers, designers, and project managers. Being open to feedback and constructive criticism.</p>
+                </div>
+              )}
+            </div>
+
+            <div className="service-item bg-black text-yellow-300 p-4 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold mb-2">Problem-Solving</h3>
+              <button 
+                className="mt-2 text-white underline" 
+                onClick={() => toggleSection('problemSolving')}
+              >
+                {openSections.problemSolving ? 'Show Less' : 'Show More'}
+              </button>
+              {openSections.problemSolving && (
+                <div className="mt-2">
+                  <p>Approaching issues with a logical and analytical mindset. Developing innovative solutions to overcome challenges and obstacles.</p>
+                </div>
+              )}
+            </div>
+      {/* <div class="service-item  p-4 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold mb-2">Freelancing</h3>
+        <p>Offering flexible freelancing services for diverse projects.</p>
+      </div> */}
+    </div>
+  </div>
+</section>
+
       <div className="w-full mt-10">
   <h4 className="ml-4 mt-5 text-2xl font-bold "></h4>
   <div className="bg- p-8 rounded-xl shadow-lg mx-4">
@@ -136,11 +202,7 @@ function Body() {
     <p className="text-lg text-center">My web development services range from <strong>$500 to $2000</strong>, depending on the complexity of the project.</p>
     <div className=' mt-6'>
     <Link to="/pricing" className=' bg-yellow-400 p-4 text-black underline rounded-2xl block'>Learn more</Link>
-
-   
     </div>
-    
-
   </div>
 </div>
 
@@ -161,7 +223,7 @@ function Body() {
       <div className="service-item bg-black text-yellow-300 p-4 rounded-lg shadow-md">
         <h3 className="text-xl font-semibold mb-2">Multi-Media</h3>
         <p>Creating engaging content through video production, graphic design, and animation.</p>
-        <button 
+        {/* <button 
           className="mt-2 text-white underline" 
           onClick={toggleMultimediaDropdown}
         >
@@ -173,18 +235,18 @@ function Body() {
             <ul className="list-disc list-inside">
               <li>Video production</li>
               {/* <li>Graphic design</li>
-              <li>Animation services</li> */}
+              <li>Animation services</li> 
               <li>Photography</li>
             </ul>
           </div>
-        )}
-      </div>
+        )}*/}
+     </div> 
       {/* <div class="service-item  p-4 rounded-lg shadow-md">
         <h3 class="text-xl font-semibold mb-2">Freelancing</h3>
         <p>Offering flexible freelancing services for diverse projects.</p>
       </div> */}
-    </div>
-  </div>
+    </div> 
+   </div>
 </section>
 
 <div className=' border border-black p-6 mr-5 ml-5'>
