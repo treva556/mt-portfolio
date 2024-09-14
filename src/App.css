@@ -27,7 +27,8 @@
   height: 40px; /* Adjust as needed */
   background-color: rgba(255, 255, 255, 0.8) !important; /* Ensure background for better visibility */
   border-radius: 50%; /* Rounded buttons */
-  z-index: 10; /* Ensure arrows are on top */
+  margin-left: 1px;
+  z-index: 1000; /* Ensure arrows are on top */
   transition: background-color 0.3s ease; /* Optional: Smooth transition for background color change */
 }
 

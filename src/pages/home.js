@@ -45,7 +45,7 @@ function Body() {
   };
 
   return (
-    <div className="bg-yellow-400">
+    <div className="bg-yellow-400" style={{ position: 'relative', zIndex: 10 }}>
       <div className=' text-yellow-400 p-6'>
         jj
       </div>
@@ -114,8 +114,8 @@ function Body() {
       <h3 className="text-2xl font-semibold mb-2 mt-6" >Personal Interests</h3>
       <p className="mb-16">In my free time, I enjoy tennis, gaming and experimenting with new web technologies.</p>
      
-
-      <div className=" bg-black lg:ml-60 lg:mr-60  font-mono font-bold p-10">
+ 
+      <div className=" bg-black lg:ml-60 lg:mr-60  font-mono font-bold p-10" style={{ position: 'relative', zIndex: 10 }} >
         <div 
           data-aos="fade-down"
           data-aos-easing="linear"

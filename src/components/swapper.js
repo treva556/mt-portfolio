@@ -27,6 +27,7 @@ const Swapper = () => {
       modules={[Pagination, Navigation]} // Only include Pagination and Navigation modules
       className="mySwiper"
     >
+      
       <SwiperSlide>
         <a
           href="https://wise-properties.vercel.app/"
@@ -34,7 +35,7 @@ const Swapper = () => {
           rel="noopener noreferrer"
           className="bg-yellow-400 rounded-2xl p-4 text-black block"
         >
-          <img src={Prop} alt="Real Estate Project" className=" w-1/8 mb-8 " />
+          <img src={Prop} alt="Real Estate Project" className=" w-1/8 mb-8  " />
           A Real Estate Project
         </a>
       </SwiperSlide>
