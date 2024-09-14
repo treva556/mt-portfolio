@@ -2,49 +2,45 @@
   text-align: center;
 }
 
-
-.color1 {
-  background-color: #6AA6FF;
+/* General Swapper Styles */
+.mySwiper {
+  position: relative;
 }
 
-
-.color2 {
- background-color: #9D7FFF;
-} 
-.color3 {
-  background-color: #000;
+/* Custom Swiper Pagination Styles */
+.swiper-pagination {
+  bottom: 10px !important; /* Adjust as needed */
 }
 
-.custom-bullets li::marker {
-  color: yellow; /* Change bullet color to yellow */
+.swiper-pagination-bullet {
+  background: white !important; /* Ensure dot color is white */
 }
 
-.typing-effect-container {
-  min-height: 3rem; /* Adjust this value based on your text size */
+.swiper-pagination-bullet-active {
+  background: yellow !important; /* Ensure active dot color is yellow */
 }
 
-code {
-  font-family: monospace; /* Ensures the text looks like code */
+/* Custom Navigation Styles */
+.swiper-button-next, .swiper-button-prev {
+  color: black !important; /* Ensure arrow color is black */
+  width: 40px; /* Adjust as needed */
+  height: 40px; /* Adjust as needed */
+  background-color: rgba(255, 255, 255, 0.8) !important; /* Ensure background for better visibility */
+  border-radius: 50%; /* Rounded buttons */
+  z-index: 10; /* Ensure arrows are on top */
+  transition: background-color 0.3s ease; /* Optional: Smooth transition for background color change */
 }
 
-/*  */
-
-.mySwiper .swiper-pagination-bullet {
-  background-color: white;
-  opacity: 1;
+/* Adjust the position of the navigation buttons */
+.swiper-button-next {
+  right: 10px !important; /* Adjust as needed */
 }
 
-.mySwiper .swiper-button-next,
-.mySwiper .swiper-button-prev {
-  color: white;
-  opacity: 1;
+.swiper-button-prev {
+  left: 10px !important; /* Adjust as needed */
 }
 
-.mySwiper .swiper-button-next:after,
-.mySwiper .swiper-button-prev:after {
-  font-size: 20px; /* Adjust arrow size (optional) */
-  content: "\f105"; /* Arrow icon from Font Awesome (optional) */
-  font-family: FontAwesome; /* Include Font Awesome (optional) */
+/* Remove default Swiper styles to avoid conflicts */
+.swiper-pagination-bullet {
+  border: none !important; /* Remove any borders */
 }
-
-

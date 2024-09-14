@@ -1,38 +1,32 @@
 
-
-
 import paradise from '../assets/paradise.jpeg';
 import FS from '../assets/FS.jpeg';
 import WLS from '../assets/wls.jpeg';
 import Prop from '../assets/prop.jpeg';
 import Blog from '../assets/blog.jpeg';
-
 import image56 from '../assets/yy.jpeg';
+
 import React from 'react';
+import '../App.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css'; // Import the default CSS from Swiper
-import 'swiper/css/navigation'; // Import navigation styles
-import 'swiper/css/pagination'; // Import pagination styles
-import { Autoplay, Pagination, Navigation } from 'swiper'; // Import modules individually
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import { Pagination, Navigation } from 'swiper/modules';
 
 const Swapper = () => {
   return (
     <Swiper
       spaceBetween={30}
       centeredSlides={true}
-      autoplay={{
-        delay: 2500,
-        disableOnInteraction: false,
-      }}
       pagination={{
         clickable: true,
       }}
-      navigation={true}   
-
+      navigation={true}
+      loop={true} // Enable infinite loop
+      modules={[Pagination, Navigation]} // Only include Pagination and Navigation modules
       className="mySwiper"
     >
-
-
       <SwiperSlide>
         <a
           href="https://wise-properties.vercel.app/"
@@ -40,22 +34,11 @@ const Swapper = () => {
           rel="noopener noreferrer"
           className="bg-yellow-400 rounded-2xl p-4 text-black block"
         >
-          <img src={Prop} alt="Real Estate Project" className="w-1/8 mb-4" />
+          <img src={Prop} alt="Real Estate Project" className=" w-1/8 mb-8 " />
           A Real Estate Project
         </a>
       </SwiperSlide>
       {/* ... other SwiperSlide components ... */}
-      <SwiperSlide>
-        <a 
-          href="https://wise-properties.vercel.app/" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          className="bg-yellow-400 rounded-2xl p-4 text-black block"
-        >
-          <img src={Prop} alt="Real Estate Project" className="w-1/8 mb-4" />
-          A Real Estate Project
-        </a>
-      </SwiperSlide>
       <SwiperSlide>
         <a 
           href="https://wise-security.vercel.app/" 
@@ -121,7 +104,8 @@ const Swapper = () => {
           NGO
         </a>
       </SwiperSlide>
-     
+     <div className=''> pp
+      </div> pp
     </Swiper>
   );
 };

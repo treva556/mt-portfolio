@@ -123,7 +123,7 @@ function Body() {
         >
           <h2 className="text-yellow-300 font-bold text-3xl mb-8">  showcase</h2>
          <Swapper/>
-         <h3 className=' text-white'>  --- Swipe----</h3>
+         {/* <h3 className=' text-white'>  --- Swipe----</h3> */}
         </div>
         <Link to="/projects" className=' text-white underline rounded-2xl block mt-4'>show more</Link>
 
