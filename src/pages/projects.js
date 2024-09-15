@@ -9,6 +9,8 @@ import FS from '../assets/FS.jpeg';
 import WLS from '../assets/wls.jpeg';
 import image56 from '../assets/yy.jpeg';
 import Blog from '../assets/blog.jpeg';
+import Welfare from '../assets/welfare.jpeg';
+
 
 
 function Projects() {
@@ -68,6 +70,19 @@ function Projects() {
               >
             <img src={WLS} alt="Technology 2" className="w-1/8 mb-4" />
             A Logistics company website
+              </a>
+            </li>
+
+            <li>
+            <a 
+                href="https://ngo-five.vercel.app/" 
+                
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className=" bg-yellow-400 rounded-2xl p-4 text-black block"
+              >
+            <img src={Welfare} alt="Technology 2" className="w-1/8 mb-4" />
+            An NGO site
               </a>
             </li>
            
