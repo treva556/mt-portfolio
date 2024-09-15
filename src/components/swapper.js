@@ -5,6 +5,8 @@ import WLS from '../assets/wls.jpeg';
 import Prop from '../assets/prop.jpeg';
 import Blog from '../assets/blog.jpeg';
 import image56 from '../assets/yy.jpeg';
+import Welfare from '../assets/welfare.jpeg';
+
 
 import React from 'react';
 import '../App.css'
@@ -101,7 +103,7 @@ const Swapper = () => {
           rel="noopener noreferrer" 
           className="bg-yellow-400 rounded-2xl p-4 text-black block"
         >
-          <img src={paradise} alt="NGO" className="w-1/8 mb-4" />
+          <img src={Welfare} alt="NGO" className="w-1/8 mb-4" />
           NGO
         </a>
       </SwiperSlide>

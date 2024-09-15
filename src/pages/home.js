@@ -18,6 +18,7 @@ import image4 from '../assets/react.png';
 import paradise from '../assets/paradise.jpeg';
 import image85 from '../assets/Group 85.png';
 import image55 from '../assets/yj.jpeg';
+import Welfare from '../assets/welfare.jpeg';
 
 import WLS from '../assets/wls.jpeg';
 
