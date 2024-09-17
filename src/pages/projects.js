@@ -11,7 +11,7 @@ import image56 from '../assets/yy.jpeg';
 import Blog from '../assets/blog.jpeg';
 import Welfare from '../assets/welfare.jpeg';
 import Ren from '../assets/Ren.jpeg';
-
+import Prop from '../assets/prop.jpeg';
 
 
 function Projects() {
@@ -27,14 +27,15 @@ function Projects() {
   <div>
   <ul className="list-disc bg-black list-inside text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  custom-bullets">
             <li>
-              <a 
-                href="https://wise-properties.vercel.app/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className=" bg-yellow-400 rounded-2xl p-4 text-black underline block"
-              >
-                Wise Properties
-              </a>
+            <a
+          href="https://wise-properties.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-yellow-400 rounded-2xl p-4 text-black block"
+        >
+          <img src={Prop} alt="Real Estate Project" className=" w-1/8 mb-8  " />
+          A Real Estate Project
+        </a>
             </li>
             <li>
             <a 
