@@ -12,6 +12,7 @@ import Blog from '../assets/blog.jpeg';
 import Welfare from '../assets/welfare.jpeg';
 import Ren from '../assets/Ren.jpeg';
 import Prop from '../assets/prop.jpeg';
+import Farm from '../assets/farm.jpeg';
 
 
 function Projects() {
@@ -95,7 +96,9 @@ function Projects() {
                 rel="noopener noreferrer" 
                 className=" bg-yellow-400 p-4 text-black underline rounded-2xl block"
               >
-                Farmwise
+                <img src={Farm} alt="Technology 2" className="w-1/8 mb-4" />
+
+                Farmwise E-comerce app
               </a>
             </li>
             <li>
