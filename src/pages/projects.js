@@ -123,7 +123,7 @@ function Projects() {
               </a>
             </li>
            
-            <li>
+            {/* <li>
               <a 
                 href="https://farmwise.co.ke/" 
                 target="_blank" 
@@ -133,18 +133,7 @@ function Projects() {
                 Jewelry Shop
               </a>
             </li>
-            <li>
-            <a 
-                href="https://wise-energy.vercel.app/" 
-                
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className=" bg-yellow-400 rounded-2xl p-4 text-black block"
-              >
-            {/* <img src={paradise} alt="Technology 2" className="w-1/8 mb-4" /> */}
-            Wise Ren.Energy
-              </a>
-            </li>
+             */}
             <li>
             <a 
                 href="https://wise-energy.vercel.app/"
