@@ -10,6 +10,7 @@ import WLS from '../assets/wls.jpeg';
 import image56 from '../assets/yy.jpeg';
 import Blog from '../assets/blog.jpeg';
 import Welfare from '../assets/welfare.jpeg';
+import Ren from '../assets/Ren.jpeg';
 
 
 
@@ -134,7 +135,7 @@ function Projects() {
             </li>
             <li>
             <a 
-                href="https://paradise-club.vercel.app/" 
+                href="https://wise-energy.vercel.app/" 
                 
                 target="_blank" 
                 rel="noopener noreferrer" 
@@ -142,6 +143,17 @@ function Projects() {
               >
             {/* <img src={paradise} alt="Technology 2" className="w-1/8 mb-4" /> */}
             Wise Ren.Energy
+              </a>
+            </li>
+            <li>
+            <a 
+                href="https://wise-energy.vercel.app/"
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className=" bg-yellow-400 rounded-2xl p-4 text-black block"
+              >
+            <img src={Ren} alt="Technology 2" className="w-1/8 mb-4" />
+            Wise. Ren. Energy
               </a>
             </li>
 
