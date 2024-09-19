@@ -88,7 +88,7 @@ function Projects() {
             An NGO site
               </a>
             </li>
-           
+          
             <li>
               <a 
                 href="https://farmwise.co.ke/" 
