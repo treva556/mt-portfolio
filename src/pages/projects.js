@@ -63,7 +63,7 @@ function Projects() {
               </a>
             </li>
 
-            <li>
+            {/* <li>
             <a 
                 href="https://logistics-app-six.vercel.app/" 
                 
@@ -74,7 +74,7 @@ function Projects() {
             <img src={WLS} alt="Technology 2" className="w-1/8 mb-4" />
             A Logistics company website
               </a>
-            </li>
+            </li> */}
 
             <li>
             <a 
