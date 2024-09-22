@@ -32,7 +32,7 @@ function Projects() {
           href="https://wise-properties.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-yellow-400 rounded-2xl p-4 text-black block"
+          className="bg-yellow-400 rounded-2xl p-4 text-black block shadow-lg hover:scale-105 transform transition duration-300 ease-in-out "
         >
           <img src={Prop} alt="Real Estate Project" className=" w-1/8 mb-8  " />
           A Real Estate Project
@@ -44,7 +44,7 @@ function Projects() {
                 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className=" bg-yellow-400 rounded-2xl p-4 text-black block"
+                className=" bg-yellow-400 rounded-2xl p-4 text-black block shadow-lg hover:scale-105 transform transition duration-300 ease-in-out "
               >
             <img src={image56} alt="Technology 2" className="w-1/8 mb-4" />
             A cyber security website project
@@ -56,7 +56,7 @@ function Projects() {
                 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className=" bg-yellow-400 rounded-2xl p-4 text-black block"
+                className=" bg-yellow-400 rounded-2xl p-4 text-black block shadow-lg hover:scale-105 transform transition duration-300 ease-in-out "
               >
             <img src={FS} alt="Technology 2" className="w-1/8 mb-4" />
             A Flight School Web project
@@ -82,7 +82,7 @@ function Projects() {
                 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className=" bg-yellow-400 rounded-2xl p-4 text-black block"
+                className=" bg-yellow-400 rounded-2xl p-4 text-black block shadow-lg hover:scale-105 transform transition duration-300 ease-in-out"
               >
             <img src={Welfare} alt="Technology 2" className="w-1/8 mb-4" />
             An NGO site
@@ -94,7 +94,7 @@ function Projects() {
                 href="https://farmwise.co.ke/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className=" bg-yellow-400 p-4 text-black underline rounded-2xl block"
+                className=" bg-yellow-400 p-4 text-black underline rounded-2xl block shadow-lg hover:scale-105 transform transition duration-300 ease-in-out "
               >
                 <img src={Farm} alt="Technology 2" className="w-1/8 mb-4" />
 
@@ -107,7 +107,7 @@ function Projects() {
                 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className=" bg-yellow-400 rounded-2xl p-4 text-black block"
+                className=" bg-yellow-400 rounded-2xl p-4 text-black block shadow-lg hover:scale-105 transform transition duration-300 ease-in-out "
               >
             <img src={paradise} alt="Technology 2" className="w-1/8 mb-4" />
             Paradise Cocktails
@@ -120,7 +120,7 @@ function Projects() {
                 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className=" bg-yellow-400 rounded-2xl p-4 text-black block"
+                className=" bg-yellow-400 rounded-2xl p-4 text-black block shadow-lg hover:scale-105 transform transition duration-300 ease-in-out "
               >
             <img src={Blog} alt="Technology 2" className="w-1/8 mb-4" />
             Full Stack Blog App
@@ -143,7 +143,7 @@ function Projects() {
                 href="https://wise-energy.vercel.app/"
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className=" bg-yellow-400 rounded-2xl p-4 text-black block"
+                className=" bg-yellow-400 rounded-2xl p-4 text-black block  shadow-lg hover:scale-105 transform transition duration-300 ease-in-out"
               >
             <img src={Ren} alt="Technology 2" className="w-1/8 mb-4" />
             Wise. Ren. Energy
