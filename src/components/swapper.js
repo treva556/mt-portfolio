@@ -6,6 +6,7 @@ import Prop from '../assets/prop.jpeg';
 import Blog from '../assets/blog.jpeg';
 import image56 from '../assets/yy.jpeg';
 import Welfare from '../assets/welfare.jpeg';
+import Farm from '../assets/farm.jpeg';
 
 
 import React from 'react';
@@ -53,7 +54,7 @@ const Swapper = () => {
           A Cyber Security Website Project
         </a>
       </SwiperSlide>
-      <SwiperSlide>
+      {/* <SwiperSlide>
         <a 
           href="https://flight-school-rose.vercel.app/" 
           target="_blank" 
@@ -63,16 +64,20 @@ const Swapper = () => {
           <img src={FS} alt="Flight School Project" className="w-1/8 mb-4" />
           A Flight School Web Project
         </a>
-      </SwiperSlide>
+      </SwiperSlide> */}
       <SwiperSlide>
-        <a 
-          href="https://farmwise.co.ke/" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          className="bg-yellow-400 p-4 text-black underline rounded-2xl block"
-        >
-          Farmwise
-        </a>
+      
+              <a 
+                href="https://farmwise.co.ke/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className=" bg-yellow-400 p-4 text-black underline rounded-2xl block shadow-lg hover:scale-105 transform transition duration-300 ease-in-out "
+              >
+                <img src={Farm} alt="Technology 2" className="w-1/8 mb-4" />
+
+                Farmwise E-comerce app
+              </a>
+           
       </SwiperSlide>
       <SwiperSlide>
         <a 
@@ -81,10 +86,11 @@ const Swapper = () => {
           rel="noopener noreferrer" 
           className="bg-yellow-400 rounded-2xl p-4 text-black block"
         >
-          <img src={paradise} alt="Paradise Cocktails" className="w-1/8 mb-4" />
+          <img src={paradise} alt="Paradise Cocktails" className="w-full mb-4" />
           Paradise Cocktails
         </a>
       </SwiperSlide>
+
       <SwiperSlide>
         <a 
           href="https://posts-2-git-main-treva556s-projects.vercel.app/" 
@@ -92,7 +98,7 @@ const Swapper = () => {
           rel="noopener noreferrer" 
           className="bg-yellow-400 rounded-2xl p-4 text-black block"
         >
-          <img src={Blog} alt="Full Stack Blog App" className="w-1/8 mb-4" />
+          <img src={Blog} alt="Full Stack Blog App" className="w-full mb-4" />
           Full Stack Blog App
         </a>
       </SwiperSlide>

@@ -50,7 +50,7 @@ function Projects() {
             A cyber security website project
               </a>
             </li>
-            <li>
+            {/* <li>
             <a 
                 href="https://flight-school-rose.vercel.app/" 
                 
@@ -61,7 +61,7 @@ function Projects() {
             <img src={FS} alt="Technology 2" className="w-1/8 mb-4" />
             A Flight School Web project
               </a>
-            </li>
+            </li> */}
 
             {/* <li>
             <a 
@@ -76,19 +76,7 @@ function Projects() {
               </a>
             </li> */}
 
-            <li>
-            <a 
-                href="https://ngo-five.vercel.app/" 
-                
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className=" bg-yellow-400 rounded-2xl p-4 text-black block shadow-lg hover:scale-105 transform transition duration-300 ease-in-out"
-              >
-            <img src={Welfare} alt="Technology 2" className="w-1/8 mb-4" />
-            An NGO site
-              </a>
-            </li>
-          
+         
             <li>
               <a 
                 href="https://farmwise.co.ke/" 
@@ -149,6 +137,19 @@ function Projects() {
             Wise. Ren. Energy
               </a>
             </li>
+            <li>
+            <a 
+                href="https://ngo-five.vercel.app/" 
+                
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className=" bg-yellow-400 rounded-2xl p-4 text-black block shadow-lg hover:scale-105 transform transition duration-300 ease-in-out"
+              >
+            <img src={Welfare} alt="Technology 2" className="w-1/8 mb-4" />
+            An NGO site
+              </a>
+            </li>
+          
 
           </ul>
 
