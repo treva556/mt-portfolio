@@ -13,6 +13,7 @@ import Welfare from '../assets/welfare.jpeg';
 import Ren from '../assets/Ren.jpeg';
 import Prop from '../assets/prop.jpeg';
 import Farm from '../assets/farm.jpeg';
+import Ams from '../assets/ams.jpeg';
 
 
 function Projects() {
@@ -48,6 +49,19 @@ function Projects() {
               >
             <img src={image56} alt="Technology 2" className="w-1/8 mb-4" />
             A cyber security website project
+              </a>
+            </li>
+
+            <li>
+            <a 
+                href=" https://ams-1.vercel.app/ " 
+                
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className=" bg-yellow-400 rounded-2xl p-4 text-black block shadow-lg hover:scale-105 transform transition duration-300 ease-in-out "
+              >
+            <img src={Ams} alt="Technology 2" className="w-1/8 mb-4" />
+            A manned guards  website
               </a>
             </li>
             {/* <li>
