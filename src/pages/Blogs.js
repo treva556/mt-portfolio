@@ -20,13 +20,13 @@ function Blogs() {
       <details>
         <summary class="py-2 outline-none cursor-pointer focus:underline"> How machines Read code </summary>
         <div class="px-4 pb-4">
-          <p>You can easily place an order on our website by browsing our product catalog, selecting the items you want, and adding them to your cart. Then, proceed to checkout, where you can provide your shipping and payment information to complete the order.</p>
+          <p>.</p>
         </div>
       </details>
       <details>
         <summary class="py-2 outline-none cursor-pointer focus:underline">Exploring the Future of Quantum Computing </summary>
         <div class="px-4 pb-4">
-          <p>We accept various payment methods, including credit cards, debit cards, net banking, and mobile wallet payments. You can choose the payment option that is most convenient for you during the checkout process.</p>
+          <p>What is quantum computing? Well...</p>
         </div>
       </details>
     
@@ -43,6 +43,27 @@ function Blogs() {
         <summary class="py-2 outline-none cursor-pointer focus:underline"> Most common Data Structures </summary>
         <div class="px-4 pb-4">
           <p>If you have any questions, concerns, or need assistance, you can reach our customer support team at 9911083755 during our business hours, Monday to Saturday from 10 am to 6 pm. You can also contact us via email at <a href="" class="underline">example@gmail.com</a>.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary class="py-2 outline-none cursor-pointer focus:underline"> My Top Recommendations Books for computer scientists & System Programmers</summary>
+        <div class="px-4 pb-4">
+          <ul>
+            <li> But how do it know by   </li>
+            <li> Modern Operating Systems  </li>
+            <li> Computer Systems: a programmers perspective 🥇 </li>
+            <li> Algorith Design Manual </li>
+            <li> Programming from Ground Up </li>
+            <li> Cracking the Coding Intervies </li>
+          </ul>
+        </div>
+      </details>
+
+      <details>
+        <summary class="py-2 outline-none cursor-pointer focus:underline"> How Networking Works </summary>
+        <div class="px-4 pb-4">
+          <p>If you have any questions, concerns, or need assistance,.</p>
         </div>
       </details>
    
